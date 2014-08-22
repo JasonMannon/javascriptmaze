@@ -5,9 +5,11 @@
   <script type="text/javascript" src="js/maze.js"></script>
   <script type="text/javascript" src="js/mazespaces.js"></script>
   <script>
-    m = new Maze(2,4);
+    m = new Maze(7,5);
     m.setStart(1,1,"north");
-    m.setEnd(7,1);
+    m.setExit(7,1);
+    m.setWall(1,1,"east");
+
   </script>
 </head>
 <body>
